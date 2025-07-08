@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KH TECHNOLOGIES</title>
+    <link rel="stylesheet" href="../CSS/home.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="../images/logo.jpg" alt="Logo" />
+            <div class="header-text">
+                <h2>KH TECHNOLOGIES</h2>
+                <p class="hotline">HOTLINE - 0112644185</p>
+            </div>
+        </div>
+        <nav class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Services</a>
+            <a href="contacts.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="main-section">
+        <div class="collections">
+            <div class="collections-header">COLLECTIONS</div>
+            <ul class="collections-list">
+                <li>Computers</li>
+                <li>Laptops</li>
+                <li><a href="#monitors">Monitors</a></li>
+                <li>Casing</li>
+                <li>UPS</li>
+                <li>Motherboard</li>
+                <li>Power Supply</li>
+                <li><a href="#desktopAccessories">Desktop Accessories</a></li>
+                <li><a href="#laptopAccessories">Laptop Accessories</a></li>
+            </ul>
+        </div>
+
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <div class="slide-content">
+                                <img src="../images/Home page/prom1.jpg">
+                            </div>
+                        </div>
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                                <img src="../images/Home page/prom1.jpg">
+                            </div>
+                        </div>
+                        <div class="slide slide_3">
+                            <div class="slide-content">
+                                <img src="../images/Home page/prom1.jpg">
+                            </div>
+                        </div>
+                        <div class="slide slide_4">
+                            <div class="slide-content">
+                                <img src="../images/Home page/prom1.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <label for="slide4" class="prev">&#10094;</label>
+                <label for="slide2" class="next">&#10095;</label>
+
+                <label for="slide1" class="prev">&#10094;</label>
+                <label for="slide3" class="next">&#10095;</label>
+
+                <label for="slide2" class="prev">&#10094;</label>
+                <label for="slide4" class="next">&#10095;</label>
+
+                <label for="slide3" class="prev">&#10094;</label>
+                <label for="slide1" class="next">&#10095;</label>
+            </div>
+
+            <div id="bullets">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>
+        </div>
+    </div>
+
+    <div class="products">
+        <section id="monitors">
+            <h2>LCD & LED Monitors (Brand New & Used)</h2>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="../images/Home page/mon1.jpg">
+                    <h3>LCD Monitors</h3>
+                    <div class="monitor-btn-section">
+                        <button onclick="window.location.href='LCDMonitor.html'">HP</button>
+                        <button onclick="window.location.href='dell-LCDMonitor.html'">DELL</button>
+                        <button>LENOVO</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="../images/Home page/mon2.jpg">
+                    <h3>LED Monitors</h3>
+                    <div class="monitor-btn-section">
+                        <button onclick="window.location.href='hp-monitor.html'">HP</button>
+                        <button onclick="window.location.href='dell-monitor.html'">DELL</button>
+                        <button id="lenovoBtn">LENOVO</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="../images/Home page/mon3.png">
+                    <h3>Brand New Falcon Monitors</h3>
+                    <div class="monitor-btn-section">
+                        <button onclick="window.location.href='falcon-monitors.html'">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="desktopAccessories">
+            <h2>Desktop Accessories</h2>
+            <div class="product-container">
+                <a href="keyboards.html" class="product-card">
+                    <img src="../images/Home-collections/desktop-accessories/keyboard.png" alt="Keyboard">
+                    <h3>KEYBOARDS</h3>
+                </a>
+
+
+                <a href="keyboards.html" class="product-card">
+                    <img src="../images/Home-collections/desktop-accessories/mouse.png" alt="Keyboard">
+                    <h3>MOUSE</h3>
+                </a>
+
+                <a href="keyboards.html" class="product-card">
+                    <img src="../images/Home-collections/desktop-accessories/power-supply.png" alt="Keyboard">
+                    <h3>POWER SUPPLY</h3>
+                </a>
+
+                <a href="keyboards.html" class="product-card">
+                    <img src="../images/Home-collections/desktop-accessories/vga-card.png" alt="Keyboard">
+                    <h3>MEMORY CARD</h3>
+                </a>
+
+                <a href="keyboards.html" class="product-card">
+                    <img src="../images/Home-collections/desktop-accessories/ram.png" alt="Keyboard">
+                    <h3>RAM</h3>
+                </a>
+
+                <a href="keyboards.html" class="product-card">
+                    <img src="../images/Home-collections/desktop-accessories/motherboard.png" alt="Keyboard">
+                    <h3>MOTHERBOARD</h3>
+                </a>
+
+        </section>
+
+        <section id="laptopAccessories">
+            <h2>Laptop Accessories</h2>
+            <div class="product-container">
+                <a href="laptop-adapters.html" class="product-card">
+                    <img src="../images/Home-collections/desktop-accessories/adapter.png" alt="Keyboard">
+                    <h3>LAPTOP ADAPTERS</h3>
+                </a>
+            
+
+            <a href="laptop-adapters.html" class="product-card">
+                <img src="../images/Home-collections/desktop-accessories/laptop.png" alt="Keyboard">
+                <h3>LAPTOP SCREENS</h3>
+            </a>
+
+            <a href="laptop-adapters.html" class="product-card">
+                <img src="../images/Home-collections/desktop-accessories/battery.png" alt="Keyboard">
+                <h3>LAPTOP BATTERY</h3>
+            </a>
+
+            <a href="laptop-adapters.html" class="product-card">
+                <img src="../images/Home-collections/desktop-accessories/cooling pad.png" alt="Keyboard">
+                <h3>COOLING PAD</h3>
+            </a>
+
+
+            </div>
+        </section>
+    </div>
+
+    <a href="#" class="back-to-top">Back To Top</a>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>Our Location</h3>
+                <p>
+                    No.27<br />
+                    Holy Emmanuel Church road,<br />
+                    Idama,<br />
+                    Moratuwa.
+                </p>
+                <hr />
+                <h3>Contact Us</h3>
+                <p>
+                    Mobile - 0714497548 / 0712190976<br />
+                    Hotline - 0112644185<br />
+                    Whatsapp - 0714497548
+                </p>
+                <hr />
+                <h3>Email</h3>
+                <p>
+                    <a href="mailto:khtechnologies123@gmail.com">khtechnologies123@gmail.com</a>
+                </p>
+            </div>
+
+            <div class="footer-right">
+                <h3>Follow Us On Social Media</h3>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/profile.php?id=100054317718831" target="_blank">
+                        <img src="../images/facebook.png" alt="Facebook" />
+                    </a>
+                    <a href="https://www.instagram.com/kh.tech_?igsh=MWZhcnZ4cXpvdHlrbw==" target="_blank">
+                        <img src="../images/instagram.png" alt="Instagram" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
