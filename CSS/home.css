@@ -389,6 +389,11 @@ a {
     
 }
 
+#laptops h3{
+    text-align: center;
+    color: #444;
+}
+
 #laptopAccessories .product-container,
 #desktopAccessories .product-container{
     display: flex;
@@ -403,7 +408,7 @@ a {
     width: 60%;
     height: 100px;
     margin-bottom: 10px;
-    box-shadow: 0 0 10px rgba(253, 1, 1, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
     
 }
 
