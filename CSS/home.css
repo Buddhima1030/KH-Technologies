@@ -204,6 +204,10 @@ a {
   display: block;
 }
 
+.promo{
+    margin: 0px 10px 10px 40px;
+}
+
 .promo h2 {
     margin: 0px 0px 10px 20px;
     color: white;
