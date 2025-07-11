@@ -162,12 +162,12 @@ a {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 30px 10px 20px 30px;
+    margin: 30px 10px 20px 20px;
     gap: 20px;
 }
 
 .collections {
-  width: 260px;
+  width: 300px;
   background-color: #2a436b;
   color: white;
   border-radius: 10px;
@@ -195,7 +195,7 @@ a {
 }
 
 .collections-list li:hover {
-  background-color: #334155;
+  background-color: #312e4b;
 }
 
 .collections-list a {
@@ -386,9 +386,10 @@ a {
 .product-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: baseline;
+    justify-content: center;
     gap: 40px;
     margin: 20px 10px 30px 40px;
+    
 }
 
 .product-card{
@@ -511,13 +512,13 @@ a {
     position: relative;
 }
 
-.monitor-btn-section button:not(:last-child)::after {
+.monitor-btn-section button + button::before {
     content: "";
     position: absolute;
-    right: 0;
+    left: 0;
     top: 25%;
     height: 50%;
-    width: 1px;
+    width: 2px;
     background-color: white;
 }
 
