@@ -380,7 +380,14 @@ a {
     width: 90%;
 }
 
-/* #battery h1 {
+#printer-ink h1 {
+    /* font-size: 2rem;
+    font-weight: bold;
+    color: #1e293b;
+    position: relative;
+    padding-left: 12px;
+    margin: 13px; */
+
     font-size: 2.5rem;
     font-weight: 700;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -393,7 +400,17 @@ a {
 
 }
 
-#battery h1::after {
+/* #laptops h1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 100%;
+    background-color: #ffee07;
+} */
+
+#printer-ink h1::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -402,10 +419,10 @@ a {
     height: 4px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     border-radius: 2px;
-} */
+}
 
 
-#laptopAccessories h2 {
+#printer-ink h2 {
     margin-left: 10px;
     font-size: 1.3rem;
     color: #007bff;
@@ -420,7 +437,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: baseline;
-    gap: 20px;
+    gap: 40px;
     margin: 20px 0px 30px 10px;
 }
 
@@ -497,7 +514,7 @@ a {
 .product-card ul li {
     color: #495057;
     font-size: 0.95rem;
-    line-height: 1.6;
+    line-height: 1.1;
     margin-bottom: 12px;
     padding-left: 25px;
     position: relative;
@@ -544,25 +561,6 @@ a {
 .product-card h3:hover {
     color: #0073e6;
     cursor: pointer;
-}
-
-#battery h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #1e293b;
-  position: relative;
-  padding-left: 12px;
-  margin-bottom: 10px;
-}
-
-#battery h1::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 6px;
-  height: 100%;
-  background-color: #007bff;
 }
 
 
